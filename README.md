@@ -15,7 +15,7 @@ To run this project on your local machine, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open the project directory.
-3. Double-click on `index.html` to open it in your web browser.
+3. Double-click on `index-landing.html` to open it in your web browser.
 
 ## Testing
 
