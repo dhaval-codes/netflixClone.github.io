@@ -1,0 +1,76 @@
+.faq {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
+.faq h1 b {
+    color: white;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.faq p {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.faq-buttons button {
+    width: 1200px;
+    height: 80px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    margin: 5px;
+}
+
+.faq-buttons button:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.faq-form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.faq-input-container{
+    margin-top: 25px;
+}
+
+.faq-input-container input {
+    height: 50px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(79, 79, 79);
+    color: rgb(69, 69, 69);
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.faq-input-button-container {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.faq-input-button-container button {
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}

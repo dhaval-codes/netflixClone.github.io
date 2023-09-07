@@ -1,0 +1,49 @@
+.enjoy-on-your-tv-part {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enjoy-on-your-tv-div {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.enjoy-on-your-tv-div-text {
+    width: 600px;
+}
+
+.enjoy-on-your-tv-div-text h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    margin-top: 250px;
+}
+
+.enjoy-on-your-tv-div-text p {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+
+.enjoy-on-your-tv-div-visuals {
+    position: relative;
+}
+
+
+.enjoy-on-your-tv-div-visuals img {
+    margin-top: 80px;
+    z-index: 2;
+    position: absolute;
+}
+
+.enjoy-on-your-tv-div-visuals video {
+    position: absolute;
+    z-index: 1;
+    margin-top: 175px;
+    left: 5rem;
+}

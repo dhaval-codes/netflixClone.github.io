@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index-landing-style.css">
+    <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="intro-section-landing-style.css">
+    <link rel="stylesheet" href="enjoy-your-tv-section-style.css">
+    <link rel="stylesheet" href="download-section-style.css">
+    <link rel="stylesheet" href="watch-everywhere-style.css">
+    <link rel="stylesheet" href="kids-section-style.css">
+    <link rel="stylesheet" href="faq-section-style.css">
+    <link rel="stylesheet" href="footer-section-style.css">
+</head>
+<body>
+    <img src="../media files/landing/background.jpg" class="background-landing">
+    <nav>
+        <img src="../media files/landing/logo.png" class="logo-landing-page">
+        <select name="language" class="language-select-landing-page">
+            <option>English</option>
+            <option>Hindi</option>
+         </select>
+         <button class="landing-signin-button">
+            Sign in
+         </button>
+    </nav>
+    <section class="intro-section-landing">
+        <div class="flex-container-div">
+            <h1>
+                Unlimited movies, TV shows and more
+            </h1>
+            <h2>
+                Watch anywhere. Cancel anytime.
+            </h2>
+            <h3>
+                Ready to watch? Enter your email to create or restart your membership.
+            </h3>
+            <form class="form-input-container">
+                <div class="input-box-container">
+                    <input type="email" placeholder="Email address" class="input-box js-input">
+                </div>
+                <div class="input-button-container">
+                    <button type="button" class="input-button" onclick="checkInputEmail();">
+                        Get Started >
+                    </button>
+                </div>
+            </form>   
+        </div>
+    </section>
+    <hr>
+    <section class="enjoy-on-your-tv-part">
+        <div class="enjoy-on-your-tv-div">
+            <div class="enjoy-on-your-tv-div-text">
+                <h1>
+                    Enjoy on your TV
+                </h1>
+                <p>
+                    Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                </p>
+            </div>
+            <div class="enjoy-on-your-tv-div-visuals">
+                <img src="../media files/landing/tv.png">
+                <video src="../media files/landing/video-tv-in-0819.m4v" autoplay loop></video>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="download-part">
+        <div class="download-div">
+            <div class="download-visuals">
+                <div class="download-visuals-animation">
+                    <img src="../media files/landing/boxshot.png">
+                    <h3>
+                        Stranger Things
+                    </h3>
+                    <br>
+                    <p>
+                        Downloading...
+                    </p>
+                </div>
+                <img src="../media files/landing/mobile-0819.jpg">
+            </div>
+            <div class="download-text">
+                <h1>
+                    Download your shows to watch offline
+                </h1>
+                <p>
+                    Save your favourites easily and always have something to watch.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="watch-everywhere-part">
+        <div class="watch-everywhere-div">
+            <div class="watch-everywhere-div-text">
+                <h1>
+                    Watch everywhere
+                </h1>
+                <p>
+                    Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                </p>
+            </div>
+            <div class="watch-everywhere-div-visuals">
+                <img src="../media files/landing/device-pile-in.png">
+                <video src="../media files/landing/video-devices-in.m4v" autoplay loop></video>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="kids-part">
+        <div class="kids-div">
+            <div class="kids-visuals">
+                <img src="../media files/landing/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png">
+            </div>
+            <div class="kids-text">
+                <h1>
+                    Create profiles for kids
+                </h1>
+                <p>
+                    Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="faq">
+        <h1>
+            <b>
+            Frequently Asked Questions
+            </b>
+        </h1>
+        <div class="faq-buttons">
+            <button>What is Netflix?</button>
+            <button>How much does Netflix Cost?</button>
+            <button>Where can I watch?</button>
+            <button>How do I cancel?</button>
+            <button>What can I watch on Netflix?</button>
+            <button>Is Netflix good for kids?</button>
+        </div>
+        <p>
+            Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form class="faq-form">
+            <div class="faq-input-container">
+                <input type="email" placeholder="Email address">
+            </div>
+            <div class="faq-input-button-container">
+                <button type="submit">
+                    Sign in >
+                </button>
+            </div>
+        </form>
+    </section>
+    <hr>
+    <footer class="footer-contaner">
+        <div class="footer-text">
+            <p>
+                Questions? Call 000-800-919-1694
+            </p>
+        </div>
+        <div class="footer-listing">  
+            <div class="footer-box">
+                <ul style="list-style-type: none;">
+                    <li>
+                        FAQ
+                    </li>
+                    <li>
+                        Investor Relations
+                    </li>
+                    <li>
+                        Privacy
+                    </li>
+                    <li>
+                        Speed Test
+                    </li>
+                </ul>
+            </div>  
+            <div class="footer-box">
+                <ul style="list-style-type: none;">
+                    <li>
+                        Help Center
+                    </li>
+                    <li>
+                        Jobs
+                    </li>
+                    <li>
+                        Cookie Preferences
+                    </li>
+                    <li>
+                        Legal Notices
+                    </li>
+                </ul>
+            </div>  
+            <div class="footer-box">
+                <ul style="list-style-type: none;">
+                    <li>
+                        Account
+                    </li>
+                    <li>
+                        Ways to watch
+                    </li>
+                    <li>
+                        Corporate Information
+                    </li>
+                    <li>                        
+                        Only on Netflix
+                    </li>
+                </ul>
+            </div> 
+            <div class="footer-box">
+                <ul style="list-style-type: none;">
+                    <li>
+                        Media Center
+                    </li>
+                    <li>
+                        Terms of Use
+                    </li>
+                    <li>
+                        Contact Us
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="footer-end">
+            <select name="language" class="language-select-landing-page">
+                <option>English</option>
+                <option>Hindi</option>
+             </select>
+             <br>
+             <br>
+             <p>Netflix India</p>
+        </div>
+    </footer>
+    <script src="../javascript/landing-page-login.js" defer></script>
+</body>
+</html>
